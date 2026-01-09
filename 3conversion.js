@@ -22,4 +22,21 @@ let score="350abc";
          console.log(typeof convert_string);
          console.log(convert_string);
          // opertion  in  javascript 
-         console.log(2+2) // ,- */ / 
+         console.log(2+2) // ,- */ /  anser 4 
+         // conversion  in  operater
+          console.log("1"+2);//anser 12
+           console.log(1+1+"3");// anser 23
+            console.log(+true);
+            // assign opertater   
+             let num1 ,num2,num3;
+              num1=num2=num3 = 4+2;
+                 console.table([num2,num1,num3]);
+
+
+                 //perfix  value before  incerment
+                 // postfixt  value after incerment
+
+
+
+                 //  ==  not data type  only  value   match  ==== match  data type 
+                  
