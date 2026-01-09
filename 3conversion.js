@@ -39,4 +39,38 @@ let score="350abc";
 
 
                  //  ==  not data type  only  value   match  ==== match  data type 
-                  
+                
+
+              console.log('2' === 2); // false
+
+        console.log('2' == 2);  //true;
+        //
+
+        /*  data type 
+           //  this  data not  original value
+       primative data - string  number  bolean ,null, undefined ,symbal, big init 
+        
+
+
+        non prinative  refrence type
+        array object  function 
+
+
+    -javascript 
+        */
+
+     let id = Symbol('11');
+     let anotherid= Symbol('11');
+      console.table([id,anotherid]);
+
+      // array 
+      const arr =[1,2,2,,2];
+        console.log(arr[1]);
+          //  object 
+       const myobject={
+         'name':"navin",
+         'job':"developer"
+       }
+        console.log(myobject.job);
+        // type  of   find  the  daata  type 
+          console.log(typeof myobject);
