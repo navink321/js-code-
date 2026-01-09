@@ -21,3 +21,5 @@ let score="350abc";
         let  convert_string =  String(string_store);
          console.log(typeof convert_string);
          console.log(convert_string);
+         // opertion  in  javascript 
+         console.log(2+2) // ,- */ / 
