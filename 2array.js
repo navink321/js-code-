@@ -37,3 +37,21 @@ const myarray =[0,1,2,3,4];
     let newarray = arraySplic.splice(1,2);
      console.log(newarray);
       console.log(arraySplic);
+      //map()= Creates a new array by modifying each element.
+       const item= [1,2,3,4,5];
+
+       let doble = item.map((n) => {
+         return  n*2
+       } );
+        console.log(doble)  ;
+        //filter()  Creates a new array with elements that match a condition.
+        let filterArray= item.filter((a)=>{
+              return a%2===0;
+        });
+         console.log(filterArray);
+         //reduce() Reduces an array to one value (sum, total, object, etc.)
+         const reduceAray= item.reduce((total,n )=>{
+            return total+n;
+
+         });
+         console.log(reduceAray);
