@@ -74,3 +74,6 @@ let score="350abc";
         console.log(myobject.job);
         // type  of   find  the  daata  type 
           console.log(typeof myobject);
+            
+
+          //commit
